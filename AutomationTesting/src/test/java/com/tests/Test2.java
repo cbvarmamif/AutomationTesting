@@ -13,6 +13,8 @@ public class Test2 {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.youtube.com/");
+		driver.navigate().to("\"https://www.facebook.com/");
+		
 		driver.close();
 	}
 
